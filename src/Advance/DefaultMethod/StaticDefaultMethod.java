@@ -1,4 +1,4 @@
-package Advance;
+package Advance.DefaultMethod;
 
 interface Vehicle {
 
@@ -18,7 +18,7 @@ interface FourWheeler {
     }
 }
 
-class Car implements Vehicle, FourWheeler {
+class Cars implements Vehicle, FourWheeler {
 
     public void print() {
         // call the Vehicle interface default print method
@@ -32,7 +32,7 @@ class Car implements Vehicle, FourWheeler {
 
 public class StaticDefaultMethod {
     public static void main(String[] args) {
-        Vehicle vehicle = new Car();
+        Vehicle vehicle = new Cars();
         vehicle.print();
 
         Vehicle.blowHorn();
