@@ -1,6 +1,7 @@
 package Advance.Base64Encoding_Decoding;
 
 import java.util.Base64;
+import java.util.UUID;
 
 public class Base64Tester {
     public static void main(String[] args) {
@@ -33,7 +34,7 @@ public class Base64Tester {
         // MIME (Multipurpose Internet Mail Extensions) Encoding and Decoding.
 
         // Encode MIME
-        String mimeData = "This is some data to be encoded and decoded in Base64 MIME format.";
+        String mimeData = UUID.randomUUID().toString();
 
         String base64MIMEEncoded = Base64.getMimeEncoder().encodeToString(mimeData.getBytes());
         System.out.println("Encoding MIME:- " + base64MIMEEncoded);
