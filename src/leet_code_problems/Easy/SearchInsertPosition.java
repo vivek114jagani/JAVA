@@ -41,7 +41,6 @@ public class SearchInsertPosition {
             }
 
             // 1) nums[mid=1] < 5  ==  true
-
             else if (nums[mid] < target) {
                 // 1) mid=1 + 1  ==  left=2
                 left = mid + 1;

@@ -27,7 +27,7 @@ public class LengthofLastWord {
         int i = s.length() - 1;     // 10[d]   //9[l]   // 8[r]   // 7[o]   // 6[W]   // 5[ ]
         int length = 0;     // 0    // 1    // 2    // 3    // 4    // 5
 
-        // 1) i=10 >= 0  ==  true  &&  s.charAt(10[d])==' '  ==  false     => false
+        // 1) i=10[d] >= 0  ==  true  &&  s.charAt(10[d])==' '  ==  false     => false
         while (i >= 0 && s.charAt(i) == ' ') {
             i--;
         }
