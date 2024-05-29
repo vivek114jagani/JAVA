@@ -1,10 +1,12 @@
 package leet_code_problems.Easy;
 
-public class RemoveDuplicatesFromSortedArray {
+// https://leetcode.com/problems/remove-duplicates-from-sorted-array/
+
+public class RemoveDuplicatesFromSortedArray_26 {
 
     public static void main(String[] args) {
 
-        RemoveDuplicatesFromSortedArray removeDuplicatesFromSortedArray = new RemoveDuplicatesFromSortedArray();
+        RemoveDuplicatesFromSortedArray_26 removeDuplicatesFromSortedArray = new RemoveDuplicatesFromSortedArray_26();
 
         int[] nums = {0, 0, 1, 1, 1, 2, 2, 3, 3, 4};
         // new nums[] = [0, 1, 2, 3, 4, 2, 2, 3, 3, 4]

@@ -2,7 +2,9 @@ package leet_code_problems.Easy;
 
 import java.util.Stack;
 
-public class ValidParentheses {
+// https://leetcode.com/problems/valid-parentheses/
+
+public class ValidParentheses_20 {
     public static void main(String[] args){
         System.out.println(isValid("()"));
         System.out.println(isValid("()[]{}"));

@@ -1,8 +1,10 @@
 package leet_code_problems.Easy;
 
-public class LengthofLastWord {
+// https://leetcode.com/problems/length-of-last-word/
+
+public class LengthofLastWord_58 {
     public static void main(String[] args) {
-        LengthofLastWord lengthofLastWord = new LengthofLastWord();
+        LengthofLastWord_58 lengthofLastWord = new LengthofLastWord_58();
 
         // Example 1
         String s1 = "Hello World";

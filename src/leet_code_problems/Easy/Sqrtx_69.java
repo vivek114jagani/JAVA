@@ -1,8 +1,10 @@
 package leet_code_problems.Easy;
 
-public class Sqrtx {
+// https://leetcode.com/problems/sqrtx/
+
+public class Sqrtx_69 {
     public static void main(String[] args) {
-        Sqrtx sqrtx = new Sqrtx();
+        Sqrtx_69 sqrtx = new Sqrtx_69();
 
         int x1 = 4;
         System.out.println(sqrtx.mySqrt(x1));   // 2

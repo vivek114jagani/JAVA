@@ -1,8 +1,10 @@
 package leet_code_problems.Easy;
 
-public class SearchInsertPosition {
+// https://leetcode.com/problems/search-insert-position/
+
+public class SearchInsertPosition_35 {
     public static void main(String[] args) {
-        SearchInsertPosition sip = new SearchInsertPosition();
+        SearchInsertPosition_35 sip = new SearchInsertPosition_35();
 
         // Example 1:-
         int[] nums1 = {1, 3, 5, 6};

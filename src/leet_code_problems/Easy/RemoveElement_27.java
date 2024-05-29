@@ -1,9 +1,11 @@
 package leet_code_problems.Easy;
 
-public class RemoveElement {
+// https://leetcode.com/problems/remove-element/
+
+public class RemoveElement_27 {
     public static void main(String[] args) {
 
-        RemoveElement removeElement = new RemoveElement();
+        RemoveElement_27 removeElement = new RemoveElement_27();
 
         // Example 1:-
         int[] nums1 = {3, 2, 2, 3};

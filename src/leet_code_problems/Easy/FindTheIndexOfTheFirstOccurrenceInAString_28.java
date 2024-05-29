@@ -1,8 +1,10 @@
 package leet_code_problems.Easy;
 
-public class FindTheIndexOfTheFirstOccurrenceInAString {
+// https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/
+
+public class FindTheIndexOfTheFirstOccurrenceInAString_28 {
     public static void main(String[] args) {
-        FindTheIndexOfTheFirstOccurrenceInAString fifos = new FindTheIndexOfTheFirstOccurrenceInAString();
+        FindTheIndexOfTheFirstOccurrenceInAString_28 fifos = new FindTheIndexOfTheFirstOccurrenceInAString_28();
 
         // Example 1
         String haystack1 = "sadbutsad";

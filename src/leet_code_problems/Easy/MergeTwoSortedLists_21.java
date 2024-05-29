@@ -1,11 +1,13 @@
 package leet_code_problems.Easy;
 
-public class MergeTwoSortedLists {
+// https://leetcode.com/problems/merge-two-sorted-lists/
+
+public class MergeTwoSortedLists_21 {
     public static void main(String[] args) {
         ListNode list1 = new ListNode(1, new ListNode(2, new ListNode(4)));
         ListNode list2 = new ListNode(1, new ListNode(3, new ListNode(4)));
 
-        MergeTwoSortedLists mergeTwoSortedLists = new MergeTwoSortedLists();
+        MergeTwoSortedLists_21 mergeTwoSortedLists = new MergeTwoSortedLists_21();
         ListNode mergedList = mergeTwoSortedLists.mergeTwoLists(list1, list2);
 
         printList(mergedList);

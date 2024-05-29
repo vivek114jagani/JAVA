@@ -2,10 +2,12 @@ package leet_code_problems.Easy;
 
 import java.util.Arrays;
 
-public class PlusOne {
+// https://leetcode.com/problems/plus-one/
+
+public class PlusOne_66 {
     public static void main(String[] args) {
 
-        PlusOne plusOne = new PlusOne();
+        PlusOne_66 plusOne = new PlusOne_66();
 
         // Example 1 :-
         int[] digits1 = {1, 2, 3};

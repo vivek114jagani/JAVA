@@ -1,9 +1,11 @@
 package leet_code_problems.Easy;
 
-public class AddBinary {
+// https://leetcode.com/problems/add-binary/
+
+public class AddBinary_67 {
     public static void main(String[] args) {
 
-        AddBinary addBinary = new AddBinary();
+        AddBinary_67 addBinary = new AddBinary_67();
 
         // Example 1 :-
         String a1 = "11";

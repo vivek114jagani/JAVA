@@ -2,7 +2,9 @@ package leet_code_problems.Easy;
 
 import java.util.Scanner;
 
-public class LongestCommonPrefix {
+// https://leetcode.com/problems/longest-common-prefix/
+
+public class LongestCommonPrefix_14 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 

@@ -1,9 +1,11 @@
 package leet_code_problems.Easy;
 
-public class ClimbingStairs {
+// https://leetcode.com/problems/climbing-stairs/
+
+public class ClimbingStairs_70 {
 
     public static void main(String[] args) {
-        ClimbingStairs climbingStairs = new ClimbingStairs();
+        ClimbingStairs_70 climbingStairs = new ClimbingStairs_70();
 
         System.out.println(climbingStairs.climbStairs(2));
         System.out.println(climbingStairs.climbStairs(3));

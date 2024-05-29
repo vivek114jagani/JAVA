@@ -1,6 +1,8 @@
 package leet_code_problems.Easy;
 
-public class RemoveDuplicatesFromSortedList {
+// https://leetcode.com/problems/remove-duplicates-from-sorted-list/
+
+public class RemoveDuplicatesFromSortedList_83 {
 
     public static class ListNode {
         int val;
@@ -11,7 +13,7 @@ public class RemoveDuplicatesFromSortedList {
     }
 
     public static void main(String[] args) {
-        RemoveDuplicatesFromSortedList rdsl = new RemoveDuplicatesFromSortedList();
+        RemoveDuplicatesFromSortedList_83 rdsl = new RemoveDuplicatesFromSortedList_83();
 
         // Example 1
         ListNode head1 = new ListNode(1, new ListNode(1, new ListNode(2)));

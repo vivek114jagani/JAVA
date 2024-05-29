@@ -2,10 +2,12 @@ package leet_code_problems.Easy;
 
 import java.util.Arrays;
 
-public class MergeSortedArray {
+// https://leetcode.com/problems/merge-sorted-array/
+
+public class MergeSortedArray_88 {
 
     public static void main(String[] args) {
-        MergeSortedArray mergeSortedArray = new MergeSortedArray();
+        MergeSortedArray_88 mergeSortedArray = new MergeSortedArray_88();
 
         // Example 1 :-
         int[] nums1_1 = {1, 2, 3, 0, 0, 0};
@@ -33,7 +35,9 @@ public class MergeSortedArray {
     }
 
     public void merge(int[] nums1, int m, int[] nums2, int n) {
-        int i = m - 1, j = n - 1, k = nums1.length - 1;
+        int i = m - 1;
+        int j = n - 1;
+        int k = nums1.length - 1;
 
         while (i >= 0 || j >= 0) {
             if (j < 0 || (i >= 0 && nums1[i] >= nums2[j])) {
