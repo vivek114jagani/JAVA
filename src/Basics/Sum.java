@@ -1,6 +1,8 @@
+package Basics;
+
 import java.util.Scanner;
 
-public class sum {
+public class Sum {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("enter the number of a ");

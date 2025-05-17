@@ -1,7 +1,9 @@
+package Basics;
+
 import java.util.Scanner;
 
 // enter the two values and find the largest values
-public class demo3 {
+public class Demo3 {
     public static void main(String[] args) {
         Scanner here=new Scanner(System.in);
         System.out.println("enter the value of a");

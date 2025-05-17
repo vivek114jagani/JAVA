@@ -1,3 +1,5 @@
+package Basics;
+
 public class ThisKey {
     // Instance variable num
     int num = 10;

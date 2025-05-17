@@ -1,3 +1,4 @@
+package Basics;
 
 public class BooleanClass {
     public static void main(String[] args) {

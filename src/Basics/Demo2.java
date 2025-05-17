@@ -1,7 +1,9 @@
+package Basics;
+
 import java.util.Scanner;
 
 // find the simple intrest
-public class demo2 {
+public class Demo2 {
     public static void main(String[] args) {
         Scanner here=new Scanner(System.in);
         float p=10000,t=5,r=10;

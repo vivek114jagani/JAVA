@@ -1,4 +1,6 @@
-public class pattern {
+package Basics;
+
+public class Pattern {
     public static void main(String[] args) {
         p13(5);
     }

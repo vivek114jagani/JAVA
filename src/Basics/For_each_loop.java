@@ -1,7 +1,9 @@
+package Basics;
+
 import java.util.Arrays;
 import java.util.List;
 
-public class for_each_loop {
+public class For_each_loop {
     public static void main(String[] args) {
         List<String> names = Arrays.asList("James", "Larry", "Tom", "Lacy");
 

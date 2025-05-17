@@ -1,6 +1,8 @@
+package Basics;
+
 import java.util.Scanner;
 
-public class electricity {
+public class Electricity {
     public static void main(String[] args) {
 
         Scanner pt = new Scanner(System.in);
@@ -17,7 +19,7 @@ public class electricity {
         } else if (unit <= 400) {
             bill = 100 * 10 + 100 * 20 + 100 * 30 + (unit - 300) * 40;
         }
-        System.out.println("The electricity bill is  =" + bill);
+        System.out.println("The electricity bill is  = " + bill);
 
     }
 }

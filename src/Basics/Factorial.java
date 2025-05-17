@@ -1,6 +1,8 @@
+package Basics;
+
 import java.util.Scanner;
 
-public class factorial {
+public class Factorial {
     public static void main(String[] args) {
         long n, fact = 1;
         Scanner r = new Scanner(System.in);

@@ -1,6 +1,8 @@
+package Basics;
+
 import java.util.Scanner;
 
-public class distance {
+public class Distance {
     public static void main(String[] args) {
         int x1, x2, y1, y2;
         double dis;
